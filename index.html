@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.cs">
+    <style>
+        h1  {
+                color: blue;
+                background-color: red;
+                text-align: center;
+            }
+
+        body{
+                 background-color: white;
+            }
+        div{
+            border: 1px solid black;
+            /*margin-top: 100px;
+            margin-bottom: 100px;
+            margin-left: 100px;
+            margin-right: 100px;*/
+            background-color: gray;
+            padding: 50px;
+        }
+       table{
+        border-collapse: collapse;
+        width: 100%;
+        font-family: cursive;
+       }
+        table, th, td{
+            border:1px solid;
+        }
+        th{
+            height: 30px;
+            text-align: center;
+        }
+        td{
+            height: 25px;
+            text-align: left;
+            vertical-align: bottom;
+            padding-left: 5px;
+        }
+        tr:hover{/*üzerine gelince renk değiştiriyor*/
+            background-color: blueviolet;
+        }
+        tr:nth-child(even){
+            background-color: rgb(154, 201, 101);
+        }
+        tr:nth-child(odd){
+            background-color: rgb(101, 124, 201);
+        }
+        body{
+            width: 100%;
+        }
+        input[type=text], [type=password]{
+            width: 100%;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 10px;
+            border-bottom: 3px solid red;/*alt çizginin rengini değiştirmek için kullanılır*/
+            color: rgb(24, 22, 168);
+            background-color: rgb(223, 198, 198);
+        }
+        
+        .myClass{
+            color: red;
+            background-color: aquamarine;
+        }
+        .p{
+            color:rgb(45, 17, 71);
+            background-color: chartreuse;
+            text-align: center;
+            
+        }
+        
+
+        
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Hello World!</h1>
+    
+    <div>
+        <b>What is Lorem Ipsum?</b>
+        <br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting 
+        industry. Lorem Ipsum has been the industry's standard dummy text 
+        ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book. It has survived not
+        only five centuries, but also the leap into electronic typesetting, 
+        remaining essentially unchanged. It was popularised in the 1960s with
+        the release of Letraset sheets containing Lorem Ipsum passages, and 
+        more recently with desktop publishing software like Aldus PageMaker 
+        including versions of Lorem Ipsum.
+    </div>
+    <br>
+    <table>
+        <tr>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Numara</th>
+        </tr>
+        <tr>
+            <td>Fatma Nur</td>
+            <td>Kılıçkaya</td>
+            <td>2344</td>
+        </tr>
+        <tr>
+            <td>Melike</td>
+            <td>Taşcı</td>
+            <td>1234</td>
+        </tr>
+        <tr>
+            <td>Fatma Nur</td>
+            <td>Kılıçkaya</td>
+            <td>2344</td>
+        </tr>
+        <tr>
+            <td>Melike</td>
+            <td>Taşcı</td>
+            <td>1234</td>
+        </tr>
+        <tr>
+            <td>Fatma Nur</td>
+            <td>Kılıçkaya</td>
+            <td>2344</td>
+        </tr>
+        <tr>
+            <td>Melike</td>
+            <td>Taşcı</td>
+            <td>1234</td>
+        </tr>
+        
+        
+    </table>
+    <br>
+    <h1 class="myClass">Melike Taşcı</h1>
+    <p class="p">İnternet Programcılığı</p>
+    <br>
+    Firstname:<input type="text">
+    Lastname:<input type="text">
+    Password:<input type="password">
+    <input type="submit">
+    <br>
+
+  </body>
+</html>
